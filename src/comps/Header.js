@@ -11,8 +11,11 @@ const Header = () => {
         <li className="header__menu__item"><a href="#">Destinations</a></li>
         <li className="header__menu__item"><a href="#">About</a></li>
         <li className="header__menu__item"><a href="#">Partner</a></li>
+        <div className="header__btn">
+          <button className="header__btn__white">Login</button>
+          <button className="header__btn__orange">Register</button>
+        </div>
       </ul>
-      
     </div>
   )
 }
