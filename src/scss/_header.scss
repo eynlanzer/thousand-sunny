@@ -1,0 +1,23 @@
+.header{
+  max-width: 1330px;
+  color: var(--orange);
+}
+
+.logo{
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--green);
+  height: 41px;
+  width: 41px;
+
+  &__orange{
+    border-radius: 50%;
+    background-color: var(--orange);
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border: 3px solid #fff;
+    top: 10px;
+    left: 10px;
+  }
+}
