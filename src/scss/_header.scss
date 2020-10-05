@@ -1,11 +1,35 @@
+#home a{
+  color: var(--black);
+  font-weight: 500;
+}
+
 .header{
   max-width: 1330px;
-  color: var(--orange);
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__menu{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    &__item a {
+      text-decoration: none;
+      color: var(--light-gray);
+      font-weight: 400;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .logo{
   border-radius: 50%;
-  position: absolute;
+  position: relative;
+  display: flex;
   background-color: var(--green);
   height: 41px;
   width: 41px;
