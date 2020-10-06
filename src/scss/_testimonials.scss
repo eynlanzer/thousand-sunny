@@ -1,0 +1,43 @@
+.testimonials{
+  margin: 0 324px 0 240px;
+  
+  &__review{
+    @include section-flex-config;
+    &__title{
+      margin-bottom: 60px;
+      font-family: 'Playfair Display';
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    &__text{
+      font-family: 'Mulish';
+      font-weight: 400;
+      font-size: 24px;
+      max-width: 450px;
+      margin-bottom: 40px;
+    }
+
+    &__reviewer{
+      font-family: 'Inter';
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 10px;
+    }
+
+    &__company{
+      font-family: 'Inter';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1px;
+    }
+  }
+
+  &__img{
+    height: 491px;
+    width: 384px; 
+    border-radius: 14px;
+    object-fit: cover;
+  }
+}
