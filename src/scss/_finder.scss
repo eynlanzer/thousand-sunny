@@ -1,10 +1,41 @@
 .finder{
   max-width: 1330px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  &__content{
+    margin-top: 50px;
+    margin-left: 45px;
+    &__text{
+      width: 356px;
+      height: 160px;
+      font-size: 64px;
+      color: var(--black); 
+      font-family: 'Playfair Display';
+      font-weight: 700;
+      line-height: 80px;
+      margin-bottom: 74px;
+    }
+    
+    &__smtext{
+      line-height: 27px;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 21px;
+    }
+
+    &__line{
+      background-color: var(--black);
+      height: 2px;
+      width: 32px;
+      border-radius: 4px;
+      margin-bottom: 48px;
+      float: left;
+    }
+  }
+
   &__img{
     height: 654px;
     width: 687px;
+    margin-right: -200px; //temp
   }
 }
