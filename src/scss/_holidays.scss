@@ -1,4 +1,4 @@
-.trending{
+.holidays{
   max-width: 1222px;
   margin: auto;
   &__top{
@@ -26,46 +26,41 @@
     display: inline-flex;
     flex-wrap: wrap;
     gap: 20px;
-  
+    position: relative;
+
     // crianças diretas
     & > * {
-     flex-basis: 20%;
-     min-width: 18em;
-    }
-    &__img{
-      height: 250px;
-      width: 270px;
-      border-top-right-radius: 8px;
-      border-top-left-radius: 8px;
-      object-fit: cover;
-    }
-    &__figcaption{
-      font-family: 'Inter';
-      font-size: 19px;
-      font-weight: 700;
-      line-height: 30px;
-      max-width: 252px;
-      --black: #000000;
-    }
-    &__smfigcaption{
-      font-family: 'Inter';
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 26px;
-      color: var(--gray);
-      max-width: 266px;
-    }
-    &__readmore{
-      font-family: 'Inter';
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 28px;
-      color: var(--orange);
-      max-width: 266px;
-      margin-top: 23px;
+      flex-basis: 20%;
+      min-width: 18em;
     }
     figcaption{
-      text-align: left;
+      background-color: #fff;
+      border-top-right-radius: 8px;
+      bottom: 0;
+      height: 20%;
+      width: 10%;
+      line-height: 10px;
+      position: absolute;
+      z-index: 2;
+    }
+    &__img{
+      border-radius: 8px;
+      height: 332px;
+      width: 261px;
+      object-fit: cover;
+    }
+    &__city{
+      font-family: 'Inter';
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--black)
+    }
+    &__country{
+      font-family: Inter;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--gray);
     }
   }
+
 }
