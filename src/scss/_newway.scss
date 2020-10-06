@@ -1,0 +1,17 @@
+.newway{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin: 167px 217px 0 141px;
+  &__img{
+    height: 534px;
+    width: 659px;
+    margin-top: 16px;
+  }
+
+  &__content{
+    margin-right: 31px;
+    max-width: 481px;
+  }
+}

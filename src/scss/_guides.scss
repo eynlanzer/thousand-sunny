@@ -1,0 +1,15 @@
+.guides{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 167px 154.43px 248px 240px;
+  &__content{
+    width: 481px;
+  }
+
+  &__img{
+    height: 542px;
+    width: 599px;
+    margin-right: 76.57px;
+  }
+}
