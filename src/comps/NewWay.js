@@ -9,7 +9,7 @@ const NewWay = () => {
         <p className="newway__content__text">
           For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way
         </p>
-        <button className="newway__content__button">Learn More</button>      
+        <button className="newway__content__btn">Learn More</button>      
       </div>
 
       <img className="newway__img" src={newwayimg} alt='New way section img' />
