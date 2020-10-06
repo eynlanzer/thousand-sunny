@@ -14,7 +14,14 @@ const Testimonials = () => {
           <h4 className="testimonials__review__reviewer">Edward Newgate</h4>
           <h5 className="testimonials__review__company">Founder Circle</h5>
         </div>
-        <img className="testimonials__img" src={testimonialsimg} alt='Testimonials section img' />      
+
+        <div className="testimonials__image">
+          <img className="testimonials__photo" src={testimonialsimg} alt='Testimonials section img' />      
+          {/* <figcaption>
+            <p>a</p>
+            <p>a</p>
+          </figcaption> */}
+        </div>
       </div>
 
     </div>

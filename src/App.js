@@ -4,6 +4,7 @@ import Finder from './comps/Finder'
 import NewWay from './comps/NewWay'
 import Guides from './comps/Guides'
 import Testimonials from './comps/Testimonials'
+import Trending from './comps/Trending'
 import Footer from './comps/Footer'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <NewWay />
       <Guides />
       <Testimonials />
+      <Trending />
       <Footer />
     </div>
   );
