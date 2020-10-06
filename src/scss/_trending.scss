@@ -23,11 +23,18 @@
   }
 
   &__pictures{
-    display: inline-flex;
     gap: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  
+    // all direct children
+    & > * {
+     flex-basis: 20%;
+     min-width: 18em;
+    }
     &__img{
       height: 250px;
-      width: 280px;
+      width: 270px;
       border-top-right-radius: 8px;
       border-top-left-radius: 8px;
       object-fit: cover;
