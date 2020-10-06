@@ -2,9 +2,9 @@
   max-width: 1330px;
   display: flex;
   justify-content: space-between;
+  margin: 80px 105px 0 189px;
   &__content{
-    margin-top: 50px;
-    margin-left: 45px;
+    margin-top: 34px;
 
     &__btn{
       background-color: var(--orange);
@@ -70,6 +70,5 @@
   &__img{
     height: 654px;
     width: 687px;
-    margin-right: -200px; //temp
   }
 }
