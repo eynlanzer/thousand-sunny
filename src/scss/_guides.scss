@@ -1,12 +1,11 @@
 .guides{
   @include section-flex-config;
-  @include section-container-config;
-  // margin: 167px 154.43px 248px 240px;
+  @include container-config;
   margin-top: 167px;
   margin-bottom: 248px;
   &__img{
-    // height: 542px;
-    // width: 599px;
+    max-height: 100%;
+    max-width: 100%;
   }
 
   &__content{
@@ -20,6 +19,10 @@
     &__btn{
       @include section-btn-config;
     }
+  }
+  @media (min-width: 70em) {
+    align-items: center;
+    justify-content: space-between;
   }
 
 }

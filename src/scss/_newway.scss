@@ -1,11 +1,10 @@
 .newway{
-  @include section-container-config;
+  @include container-config;
   @include section-flex-config;
   margin-top: 286px;
-  flex-direction: row-reverse;
   &__img{
-    // height: 534px;
-    // width: 659px;
+    max-height: 100%;
+    max-width: 100%;
   }
 
   &__content{
@@ -19,5 +18,10 @@
     &__btn{
       @include section-btn-config;
     }
+  }
+  @media (min-width: 70em) {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
   }
 }
