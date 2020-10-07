@@ -14,12 +14,14 @@
   justify-content: space-between;
   margin: auto;
   max-width: 1350px;
+  width: 85%;
 }
 
 // Guide, Testimonials, Holiday, Trending
 @mixin section-container-config{
   margin: auto;
   max-width: 1250px;
+  width: 85%;
 }
 
 
