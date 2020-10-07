@@ -1,5 +1,5 @@
 .trending{
-  @include section-container-config;
+  @include container-config;
   &__top{
     display: flex;
     justify-content: space-between;
@@ -19,17 +19,18 @@
   
     &__img{
       height: 250px;
-      width: 270px;
+      width: 270px; 
       border-top-right-radius: 8px;
       border-top-left-radius: 8px;
-      object-fit: cover;
+      object-fit: cover; //desktop
+      width: 300px; // desktop
     }
     &__figcaption{
       font-family: 'Inter';
       font-size: 19px;
       font-weight: 700;
       line-height: 30px;
-      max-width: 252px;
+      max-width: 270px;
       --black: #000000;
     }
     &__smfigcaption{

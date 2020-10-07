@@ -1,5 +1,5 @@
 .holidays{
-  @include section-container-config;
+  @include container-config;
   &__top{
     display: flex;
     justify-content: space-between;

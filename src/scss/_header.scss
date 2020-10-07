@@ -42,3 +42,10 @@
     }
   }
 }
+
+@media (min-width: 70em) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}

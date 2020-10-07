@@ -11,14 +11,14 @@ import Footer from './comps/Footer'
 const App = () => {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <Finder />
-      {/* <NewWay />
-      <Guides /> */}
-      {/* <Testimonials /> */}
+      <NewWay />
+      <Guides />
+      <Testimonials />
       <Trending />
       <Holidays />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

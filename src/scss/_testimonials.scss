@@ -1,7 +1,6 @@
 .testimonials{
-  @include section-container-config;
+  @include container-config;
   &__review{
-    display: flex;
     @include section-flex-config;
     &__title{
       margin-bottom: 60px;
@@ -38,9 +37,19 @@
   }
 
   &__photo{
-    height: 491px;
-    width: 384px; 
+    height: 430px;
+    width: 330px; 
     border-radius: 14px;
     object-fit: cover;
+  }
+  @media (min-width: 70em) {
+    &__review{
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__photo{
+      height: 491px;
+      width: 384px; 
+    }
   }
 }

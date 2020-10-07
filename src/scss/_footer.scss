@@ -46,4 +46,10 @@
       margin-right: 10px;
     }
   }
+  @media (min-width: 70em) {
+    &__container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }

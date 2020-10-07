@@ -1,3 +1,9 @@
+@mixin container-config{
+  margin: auto;
+  max-width: 1350px;
+  width: 85%;
+}
+
 // Header
 @mixin btn-config{
   border: 1px solid var(--orange);
@@ -10,27 +16,11 @@
   outline:0;
 }
 
-// Footer, Header, Finder, NewWay
-@mixin container-config{
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  max-width: 1350px;
-  width: 85%;
-}
-
-// Guide, Testimonials, Holiday, Trending
-@mixin section-container-config{
-  margin: auto;
-  max-width: 1250px;
-  width: 85%;
-}
-
 // NewWay + Guide
 @mixin section-flex-config{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @mixin section-btn-config{

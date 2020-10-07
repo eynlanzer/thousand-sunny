@@ -1,5 +1,6 @@
 .finder{
   @include container-config;
+  // justify-content: center;
   margin-top: 80px;
   &__content{
     margin-top: 34px;
@@ -73,5 +74,12 @@
   &__img{
     height: 654px;
     width: 687px;
+  }
+}
+
+@media (min-width: 70em) {
+  .finder {
+    display: flex;
+    justify-content: space-between;
   }
 }
