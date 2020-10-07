@@ -1,0 +1,69 @@
+@mixin btn-config{
+  border: 1px solid var(--orange);
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  height: 44px;
+  width: 132px;
+}
+
+// Footer, Header, Finder, NewWay
+@mixin container-config{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1350px;
+}
+
+// Guide, Testimonials, Holiday, Trending
+@mixin section-container-config{
+  margin: auto;
+  max-width: 1250px;
+}
+
+
+// NewWay + Guide
+@mixin section-flex-config{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin section-btn-config{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: 8px;
+  padding: 6px 37px;
+  height: 48px;
+  width: 164px;
+  margin-top: 39px;
+}
+
+@mixin section-title-config{
+  --black: #000000;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+@mixin section-text-config{
+  color: var(--gray);
+  font-family: 'Mulish';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;   
+  max-width: 450px;
+}
+
+//Footer
+@mixin footer-text-config{
+  font-family: 'Mulish';
+  font-weight: 300;
+  color: #848484;
+  font-size: 18px;
+}

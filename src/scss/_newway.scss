@@ -1,0 +1,23 @@
+.newway{
+  @include section-container-config;
+  @include section-flex-config;
+  margin-top: 286px;
+  flex-direction: row-reverse;
+  &__img{
+    // height: 534px;
+    // width: 659px;
+  }
+
+  &__content{
+    max-width: 481px;
+    &__title{
+      @include section-title-config; 
+    }
+    &__text{
+      @include section-text-config;
+    }
+    &__btn{
+      @include section-btn-config;
+    }
+  }
+}

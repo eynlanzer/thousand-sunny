@@ -1,0 +1,26 @@
+.guides{
+  @include section-flex-config;
+  @include section-container-config;
+  // margin: 167px 154.43px 248px 240px;
+  margin-top: 167px;
+  margin-bottom: 248px;
+  &__img{
+    height: 542px;
+    width: 599px;
+    margin-right: 76.57px;
+  }
+
+  &__content{
+    max-width: 481px;
+    &__title{
+      @include section-title-config; 
+    }
+    &__text{
+      @include section-text-config;
+    }
+    &__btn{
+            @include section-btn-config;
+    }
+  }
+
+}

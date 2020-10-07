@@ -1,0 +1,45 @@
+#home a{
+  color: var(--black);
+  font-weight: 500;
+}
+
+.header{
+  @include container-config;
+  align-items: center;
+
+  &__btn{
+    display: flex;
+    gap: 18px;
+    margin-top: 8px;
+    margin-right: 85px;
+    &__white{
+      background-color: #fff;
+      color: var(--orange);
+      padding: 8px 46px;
+      @include btn-config;
+    }
+    &__orange{
+      background-color: var(--orange);
+      color: #fff;
+      padding: 8px 36px;
+      @include btn-config;
+    }
+  }
+
+  &__menu{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    margin-top: 21px;
+    &__item a {
+      color: var(--light-gray);
+      font-weight: 400;
+      line-height: 19.36px;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
