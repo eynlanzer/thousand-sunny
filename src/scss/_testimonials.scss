@@ -2,13 +2,11 @@
   @include section-container-config;
   &__review{
     display: flex;
-    gap: 200px;
+    gap: 280px;
     // @include section-flex-config;
     &__title{
       margin-bottom: 60px;
-      font-family: 'Playfair Display';
-      font-size: 36px;
-      font-weight: 700;
+      @include section-title-config;
     }
 
     &__text{
