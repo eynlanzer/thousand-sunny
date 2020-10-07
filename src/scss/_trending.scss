@@ -1,6 +1,5 @@
 .trending{
-  max-width: 1222px;
-  margin: auto;
+  @include section-container-config;
   &__top{
     display: flex;
     justify-content: space-between;

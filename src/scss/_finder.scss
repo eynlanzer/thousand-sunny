@@ -1,11 +1,8 @@
 .finder{
-  width: 1600px;
-  display: flex;
-  justify-content: space-between;
-  margin: 80px 105px 103px 80px;
+  @include container-config;
+  margin-top: 80px;
   &__content{
     margin-top: 34px;
-    margin-left: 109px;
 
     &__btn{
       background-color: var(--orange);

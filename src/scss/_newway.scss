@@ -1,15 +1,14 @@
 .newway{
+  @include section-container-config;
   @include section-flex-config;
-  margin: 167px 217px 0 141px;
+  margin-top: 286px;
   flex-direction: row-reverse;
   &__img{
-    height: 534px;
-    width: 659px;
-    margin-top: 16px;
+    // height: 534px;
+    // width: 659px;
   }
 
   &__content{
-    margin-right: 31px;
     max-width: 481px;
     &__title{
       @include section-title-config; 

@@ -1,8 +1,9 @@
 .testimonials{
-  margin: 0 324px 0 240px;
-  
+  @include section-container-config;
   &__review{
-    @include section-flex-config;
+    display: flex;
+    gap: 200px;
+    // @include section-flex-config;
     &__title{
       margin-bottom: 60px;
       font-family: 'Playfair Display';

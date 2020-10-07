@@ -4,11 +4,8 @@
 }
 
 .header{
-  display: flex;
+  @include container-config;
   align-items: center;
-  justify-content: space-between;
-  margin: 35px 105px 0 80px; 
-  width: 1600px;
 
   &__btn{
     display: flex;
