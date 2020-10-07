@@ -10,17 +10,12 @@
     }
 
     &__viewall{
-      font-family: 'Inter';
-      font-size: 17px;
-      font-weight: 600;
-      color: var(--orange);
+      @include viewall-config;
     }
   }
 
   &__pictures{
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    @include wrap-pictures-config;
   
     &__img{
       height: 250px;
@@ -56,6 +51,12 @@
     }
     figcaption{
       text-align: left;
+    }
+  }
+
+  @media (min-width: 70em) {
+    &__pictures {
+      justify-content: space-between; // desktop 
     }
   }
 }

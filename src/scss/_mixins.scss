@@ -6,6 +6,8 @@
   font-weight: 500;
   height: 44px;
   width: 132px;
+  cursor: pointer;
+  outline:0;
 }
 
 // Footer, Header, Finder, NewWay
@@ -23,7 +25,6 @@
   max-width: 1250px;
   width: 85%;
 }
-
 
 // NewWay + Guide
 @mixin section-flex-config{
@@ -44,6 +45,8 @@
   height: 48px;
   width: 164px;
   margin-top: 39px;
+  cursor: pointer;
+  outline:0;
 }
 
 @mixin section-title-config{
@@ -61,6 +64,21 @@
   font-weight: 300;
   line-height: 30px;   
   max-width: 450px;
+}
+
+// Trending, Holiday
+@mixin viewall-config{
+  font-family: 'Inter';
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--orange);
+  cursor: pointer;
+}
+
+@mixin wrap-pictures-config{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; // mobile
 }
 
 //Footer

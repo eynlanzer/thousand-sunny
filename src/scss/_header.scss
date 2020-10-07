@@ -9,12 +9,11 @@
 
   &__btn{
     display: flex;
-    gap: 18px;
     margin-top: 8px;
-    margin-right: 85px;
     &__login{
       background-color: #fff;
       color: var(--orange);
+      margin-right: 20px;
       padding: 8px 46px;
       @include btn-config;
     }
@@ -29,13 +28,13 @@
   &__menu{
     display: flex;
     align-items: center;
-    gap: 35px;
     list-style: none;
     margin-top: 21px;
     &__item a {
       color: var(--light-gray);
       font-weight: 400;
       line-height: 19.36px;
+      margin-right: 20px;
       text-decoration: none;
       &:hover{
         text-decoration: underline;

@@ -2,15 +2,15 @@
   @include section-container-config;
   &__review{
     display: flex;
-    gap: 280px;
-    // @include section-flex-config;
+    @include section-flex-config;
     &__title{
       margin-bottom: 60px;
       @include section-title-config;
     }
     &__rating{
       display: flex;
-      gap: 10px;
+      justify-content: space-between;
+      width: 150px;
     }
 
     &__text{
