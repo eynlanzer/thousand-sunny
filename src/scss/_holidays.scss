@@ -25,14 +25,9 @@
   &__pictures{
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     position: relative;
 
-    // crianças diretas
-    & > * {
-      flex-basis: 20%;
-      min-width: 18em;
-    }
     figcaption{
       background-color: #fff;
       border-top-right-radius: 8px;
@@ -46,7 +41,7 @@
     &__img{
       border-radius: 8px;
       height: 332px;
-      width: 261px;
+      width: 270px;
       object-fit: cover;
     }
     &__city{
