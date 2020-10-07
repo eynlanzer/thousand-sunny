@@ -12,13 +12,13 @@
     gap: 18px;
     margin-top: 8px;
     margin-right: 85px;
-    &__white{
+    &__login{
       background-color: #fff;
       color: var(--orange);
       padding: 8px 46px;
       @include btn-config;
     }
-    &__orange{
+    &__register{
       background-color: var(--orange);
       color: #fff;
       padding: 8px 36px;

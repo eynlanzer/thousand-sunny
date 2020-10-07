@@ -5,9 +5,8 @@
   margin-top: 167px;
   margin-bottom: 248px;
   &__img{
-    height: 542px;
-    width: 599px;
-    margin-right: 76.57px;
+    // height: 542px;
+    // width: 599px;
   }
 
   &__content{
@@ -19,7 +18,7 @@
       @include section-text-config;
     }
     &__btn{
-            @include section-btn-config;
+      @include section-btn-config;
     }
   }
 

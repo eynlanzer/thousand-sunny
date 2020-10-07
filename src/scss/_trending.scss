@@ -6,11 +6,7 @@
     margin-top: 200px;
     margin-bottom: 54px;
     &__title{
-      font-family: 'Playfair Display';
-      font-size: 36px;
-      font-weight: 700;
-      line-height: 50px;
-      --black: #000000; 
+      @include section-title-config;
     }
 
     &__viewall{
@@ -26,11 +22,6 @@
     flex-wrap: wrap;
     gap: 20px;
   
-    // crianças diretas
-    & > * {
-     flex-basis: 20%;
-     min-width: 18em;
-    }
     &__img{
       height: 250px;
       width: 270px;

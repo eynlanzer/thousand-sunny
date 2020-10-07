@@ -6,11 +6,7 @@
     margin-top: 200px;
     margin-bottom: 54px;
     &__title{
-      font-family: 'Playfair Display';
-      font-size: 36px;
-      font-weight: 700;
-      line-height: 50px;
-      --black: #000000; 
+      @include section-title-config;
     }
 
     &__viewall{

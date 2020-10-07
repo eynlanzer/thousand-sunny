@@ -4,13 +4,15 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__container">
+
         <div className="footer__info">
           <div className="logo">
-            <div className="logo__orange"></div>
+            <div className="logo__center"></div>
           </div>
           <p className="footer__info__about">Plan and book your perfect trip with <span style={{display:'block'}}>expert advice, travel tips destination</span> information from us</p>
           <p className="footer__info__copyright">©2020 Thousand Sunny. All rights reserved</p>
         </div>
+      
         <ul className="footer__menu">
           <p className="footer__menu__title">Destiantions</p>
           <a class="footer__menu__link" href="#"><li>Africa</li></a>
@@ -37,7 +39,6 @@ const Footer = () => {
           <a class="footer__menu__link" href="#"><li>Family Holidays</li></a>
           <a class="footer__menu__link" href="#"><li>Food And Drink</li></a>
         </ul>
-
       </div>
       <hr style={{width: '1350px'}} />
 
