@@ -1,6 +1,7 @@
 .finder{
   @include container-config;
-  // justify-content: center;
+  display: flex;
+  flex-direction: column-reverse;
   margin-top: 80px;
   &__content{
     margin-top: 34px;
@@ -80,7 +81,7 @@
 
 @media (min-width: 70em) {
   .finder {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     &__img{
       margin-top: 0;

@@ -1,6 +1,7 @@
 .newway{
   @include container-config;
   @include section-flex-config;
+  flex-direction: column-reverse;  
   margin-top: 286px;
   &__img{
     max-height: 100%;
