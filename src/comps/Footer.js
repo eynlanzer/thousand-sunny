@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
           <div className="logo">
             <div className="logo__center"></div>
           </div>
-          <p className="footer__info__about">Plan and book your perfect trip with <span style={{display:'block'}}>expert advice, travel tips destination</span> information from us</p>
+          <p className="footer__info__about">Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
           <p className="footer__info__copyright">©2020 Thousand Sunny. All rights reserved</p>
         </div>
       
@@ -40,7 +41,9 @@ const Footer = () => {
           <a class="footer__menu__link" href="#"><li>Food And Drink</li></a>
         </ul>
       </div>
-      <hr style={{width: '1350px'}} />
+
+      <hr style={{maxWidth: '1350px', padding: 'auto'}} />
+      
       <ul className="footer__icons">
         <a className="footer__icons__link">
           <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">

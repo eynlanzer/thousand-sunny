@@ -5,24 +5,24 @@
   @include footer-text-config;
   &__container{
     @include container-config;
+    margin-bottom: 81px;
   }
 
   &__info{
-    height: 237px;
     max-width: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     &__about{
-      margin-top: 25px;
       line-height: 28px;
-    }
-    &__copyright{
-      margin-top: 45px;
     }
   }
 
   // footer menu
   &__menu{
     list-style: none;
-    margin-bottom: 81px;
+    margin: 0;
+    padding-left: 0;
     &__title{
       color: #000;
       font-size: 19px;
@@ -40,6 +40,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 18px;
+    padding-left: 0;
     margin-bottom: 0;
     &__link{
       cursor: pointer;
@@ -50,6 +51,15 @@
     &__container {
       display: flex;
       justify-content: space-between;
+      height: 237px;
+    }
+    &__info{
+      &__about{
+        margin-top: 0;
+      }
+      &__copyright{
+        margin-top: 0;
+      }
     }
   }
 }

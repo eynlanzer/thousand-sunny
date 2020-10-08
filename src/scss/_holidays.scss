@@ -7,6 +7,7 @@
     margin-bottom: 54px;
     &__title{
       @include section-title-config;
+      max-width: 190px;
     }
 
     &__viewall{
@@ -16,22 +17,19 @@
 
   &__pictures{
     @include wrap-pictures-config;
-    position: relative;
 
     figcaption{
-      background-color: #fff;
+      @include overlay-config;
       border-top-right-radius: 8px;
-      bottom: 0;
       width: 110px;
       line-height: 10px;
-      position: absolute;
-      z-index: 2;
     }
     &__img{
       border-radius: 8px;
       height: 332px;
       width: 290px;
       object-fit: cover;
+      margin-top: 10px;
     }
     &__city{
       font-family: 'Inter';
@@ -52,8 +50,17 @@
   }
   
   @media (min-width: 70em) {
+    &__top{
+      &__title{
+        max-width: 400px;
+      }
+    }
+
     &__pictures {
       justify-content: space-between; // desktop 
+      &__img{
+        margin-top: 0;
+      }
     }
   }
 

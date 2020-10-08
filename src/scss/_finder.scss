@@ -29,7 +29,7 @@
       line-height: 80px;
       margin-bottom: 74px;
       height: 160px;
-      width: 356px;
+      max-width: 356px;
     }
     
     &__smtext{
@@ -51,7 +51,7 @@
       margin-top: 48px;
       display: flex;
       flex-wrap: wrap;
-      width: 471px;
+      max-width: 471px;
       &__option{
         cursor: pointer;
         --black: #4A4C53;
@@ -72,8 +72,9 @@
   }
 
   &__img{
-    height: 654px;
-    width: 687px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20px;
   }
 }
 
@@ -81,5 +82,8 @@
   .finder {
     display: flex;
     justify-content: space-between;
+    &__img{
+      margin-top: 0;
+    }
   }
 }

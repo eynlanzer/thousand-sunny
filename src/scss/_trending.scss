@@ -7,6 +7,7 @@
     margin-bottom: 54px;
     &__title{
       @include section-title-config;
+      max-width: 190px;
     }
 
     &__viewall{
@@ -49,6 +50,7 @@
       color: var(--orange);
       max-width: 266px;
       margin-top: 23px;
+      cursor: pointer; 
     }
     figcaption{
       text-align: left;
@@ -56,6 +58,11 @@
   }
 
   @media (min-width: 70em) {
+    &__top{
+      &__title{
+        max-width: 400px;
+      }
+    }
     &__pictures {
       justify-content: space-between; // desktop 
     }

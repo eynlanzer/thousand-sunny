@@ -35,12 +35,35 @@
       line-height: 1px;
     }
   }
-
+  &__image{
+    position: relative;
+    &__previousBtn{
+      @include overlay-btn-config;
+      border: 2px solid #D7D7D7;
+      color: #D7D7D7;
+      
+    }
+    &__nextBtn{
+      @include overlay-btn-config;
+      border: 2px solid #000;
+      color: var(--black);
+    }
+  }
   &__photo{
     height: 430px;
     width: 330px; 
     border-radius: 14px;
     object-fit: cover;
+  }
+  figcaption{
+    @include overlay-config;
+    border-top-left-radius: 8px;
+    right: 0;
+    width: 132px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
   @media (min-width: 70em) {
     &__review{
