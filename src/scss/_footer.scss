@@ -6,20 +6,15 @@
   &__container{
     @include container-config;
     margin-bottom: 81px;
-    height: 237px;
   }
 
   &__info{
     max-width: 391px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     &__about{
       line-height: 28px;
-      margin: 0;
-    }
-    &__copyright{
-      margin-top: 0;
     }
   }
 
@@ -27,6 +22,7 @@
   &__menu{
     list-style: none;
     margin: 0;
+    padding-left: 0;
     &__title{
       color: #000;
       font-size: 19px;
@@ -55,6 +51,15 @@
     &__container {
       display: flex;
       justify-content: space-between;
+      height: 237px;
+    }
+    &__info{
+      &__about{
+        margin-top: 0;
+      }
+      &__copyright{
+        margin-top: 0;
+      }
     }
   }
 }

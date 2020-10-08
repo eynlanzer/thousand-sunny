@@ -11,8 +11,8 @@ import Footer from './comps/Footer'
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Finder />
+      {/* <Header /> */}
+      {/* <Finder /> */}
       <NewWay />
       <Guides />
       <Testimonials />

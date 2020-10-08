@@ -45,6 +45,7 @@
   font-size: 36px;
   font-weight: 700;
   line-height: 50px;
+  max-width: 239px;
 }
 
 @mixin section-text-config{
@@ -63,6 +64,8 @@
   font-weight: 600;
   color: var(--orange);
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 @mixin wrap-pictures-config{
