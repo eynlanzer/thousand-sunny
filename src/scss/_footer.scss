@@ -5,24 +5,28 @@
   @include footer-text-config;
   &__container{
     @include container-config;
+    margin-bottom: 81px;
+    height: 237px;
   }
 
   &__info{
-    height: 237px;
     max-width: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     &__about{
-      margin-top: 25px;
       line-height: 28px;
+      margin: 0;
     }
     &__copyright{
-      margin-top: 45px;
+      margin-top: 0;
     }
   }
 
   // footer menu
   &__menu{
     list-style: none;
-    margin-bottom: 81px;
+    margin: 0;
     &__title{
       color: #000;
       font-size: 19px;
@@ -40,6 +44,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 18px;
+    padding-left: 0;
     margin-bottom: 0;
     &__link{
       cursor: pointer;
