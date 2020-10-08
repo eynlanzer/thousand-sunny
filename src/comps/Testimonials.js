@@ -33,10 +33,10 @@ const Testimonials = () => {
 
         <div className="testimonials__image">
           <img className="testimonials__photo" src={testimonialsimg} alt='Testimonials section img' />      
-          {/* <figcaption>
-            <p>a</p>
-            <p>a</p>
-          </figcaption> */}
+          <figcaption>
+            <button className="testimonials__image__previousBtn">{"<"}</button>
+            <button className="testimonials__image__nextBtn">{">"}</button>
+          </figcaption>
         </div>
       </div>
 
