@@ -1,8 +1,8 @@
 import React from 'react'
-import holiday1 from '../img/holiday1.png';
-import holiday2 from '../img/holiday2.png';
-import holiday3 from '../img/holiday3.png';
-import holiday4 from '../img/holiday4.png';
+import holiday1 from '../../assets/holiday1.png';
+import holiday2 from '../../assets/holiday2.png';
+import holiday3 from '../../assets/holiday3.png';
+import holiday4 from '../../assets/holiday4.png';
 
 const Holidays = () => {
   return (

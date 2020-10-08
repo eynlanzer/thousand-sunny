@@ -1,8 +1,8 @@
 import React from 'react';
-import trend1 from '../img/trend1.png';
-import trend2 from '../img/trend2.png';
-import trend3 from '../img/trend3.png';
-import trend4 from '../img/trend4.png';
+import trend1 from '../../assets/trend1.png';
+import trend2 from '../../assets/trend2.png';
+import trend3 from '../../assets/trend3.png';
+import trend4 from '../../assets/trend4.png';
 
 const Trending = () => {
   return (

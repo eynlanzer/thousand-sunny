@@ -1,5 +1,5 @@
 import React from 'react'
-import newwayimg from '../img/thousand-02.png';
+import newwayimg from '../../assets/thousand-02.png';
 
 const NewWay = () => {
   return (

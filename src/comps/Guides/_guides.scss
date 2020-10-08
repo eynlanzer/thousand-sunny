@@ -1,6 +1,7 @@
 .guides{
   @include section-flex-config;
   @include container-config;
+  flex-direction: column-reverse;
   margin-top: 167px;
   margin-bottom: 248px;
   &__img{
@@ -23,6 +24,7 @@
   }
   @media (min-width: 70em) {
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
     &__img{
       margin-top: 0;

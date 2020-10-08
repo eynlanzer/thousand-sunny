@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './comps/Header'
-import Finder from './comps/Finder'
-import NewWay from './comps/NewWay'
-import Guides from './comps/Guides'
-import Testimonials from './comps/Testimonials'
-import Trending from './comps/Trending'
-import Holidays from './comps/Holidays'
-import Footer from './comps/Footer'
+import Header from './comps/Header/Header'
+import Finder from './comps/Finder/Finder'
+import NewWay from './comps/NewWay/NewWay'
+import Guides from './comps/Guides/Guides'
+import Testimonials from './comps/Testimonials/Testimonials'
+import Trending from './comps/Trending/Trending'
+import Holidays from './comps/Holidays/Holidays'
+import Footer from './comps/Footer/Footer'
 
 const App = () => {
   return (
