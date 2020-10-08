@@ -22,8 +22,7 @@
       background-color: #fff;
       border-top-right-radius: 8px;
       bottom: 0;
-      height: 20%;
-      width: 10%;
+      width: 110px;
       line-height: 10px;
       position: absolute;
       z-index: 2;
@@ -31,7 +30,7 @@
     &__img{
       border-radius: 8px;
       height: 332px;
-      width: 270px;
+      width: 290px;
       object-fit: cover;
     }
     &__city{
@@ -46,6 +45,10 @@
       font-weight: 500;
       color: var(--gray);
     }
+  }
+
+  .overlay{
+    position: relative;
   }
   
   @media (min-width: 70em) {
