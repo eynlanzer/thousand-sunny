@@ -1,5 +1,5 @@
 import React from 'react';
-import finderimg from '../img/thousand-01.png';
+import finderimg from '../../assets/thousand-01.png';
 
 function Finder() {
   return (

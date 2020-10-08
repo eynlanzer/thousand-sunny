@@ -48,5 +48,10 @@
   .header {
     display: flex;
     justify-content: space-between;
+    &__menu{
+      &__item a {
+        margin-right: 18px;
+      }
+    }
   }
 }

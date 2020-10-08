@@ -1,5 +1,5 @@
 import React from 'react'
-import guidesimg from '../img/thousand-03.png';
+import guidesimg from '../../assets/thousand-03.png';
 
 const Guides = () => {
   return (
