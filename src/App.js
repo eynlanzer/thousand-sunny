@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './comps/Header/Header'
 import Finder from './comps/Finder/Finder'
 import NewWay from './comps/NewWay/NewWay'
@@ -9,6 +9,7 @@ import Holidays from './comps/Holidays/Holidays'
 import Footer from './comps/Footer/Footer'
 
 const App = () => {
+
   return (
     <div className="App">
       <Header />
