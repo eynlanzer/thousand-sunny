@@ -33,9 +33,10 @@
 
   &__menu{
     align-items: center;
-    display: none;
+    visibility: hidden;
     list-style: none;
     margin-top: 21px;
+    right: -100vw;
     &--open{
       align-items: center;
       background-color: #fff;
@@ -52,7 +53,8 @@
       right: 0;
       top: 0;
       z-index: 2;
-      opacity: 1;
+      transition: all .5s ease-in-out;
+      visibility: visible;
     }
     &--close{
      background-color: #fff;
