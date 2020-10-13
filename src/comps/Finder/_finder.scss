@@ -49,16 +49,16 @@
     }
     
     &__dropdown{
-      margin-top: 48px;
       display: flex;
       flex-wrap: wrap;
+      margin-top: 48px;
       max-width: 471px;
       &__option{
-        cursor: pointer;
         --black: #4A4C53;
+        background-color: #fff;
         border-radius: 6px;
         border: 0.8px solid #AFB0B9;
-        background-color: #fff;
+        cursor: pointer;
         font-family: 'Inter';
         font-size: 15px;
         font-weight: 400;
@@ -73,9 +73,9 @@
   }
 
   &__img{
+    margin-top: 20px;
     max-height: 100%;
     max-width: 100%;
-    margin-top: 20px;
   }
 }
 
