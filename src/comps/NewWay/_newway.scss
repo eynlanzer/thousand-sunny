@@ -4,9 +4,9 @@
   flex-direction: column-reverse;  
   margin-top: 286px;
   &__img{
+    margin-top: 20px;
     max-height: 100%;
     max-width: 100%;
-    margin-top: 20px;
   }
 
   &__content{
@@ -23,8 +23,8 @@
   }
   @media (min-width: 70em) {
     align-items: center;
-    justify-content: space-between;
     flex-direction: row-reverse;
+    justify-content: space-between;
     &__img{
       margin-top: 0;
     }
