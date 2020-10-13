@@ -93,6 +93,7 @@
   .header {
     &__menu{
       display: flex;
+      visibility: visible;
       &--close{
         display: none;
       }
