@@ -3,8 +3,8 @@
   &__top{
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
     margin-bottom: 54px;
+    margin-top: 200px;
     &__title{
       @include section-title-config;
       max-width: 190px;
@@ -21,15 +21,15 @@
     figcaption{
       @include overlay-config;
       border-top-right-radius: 8px;
-      width: 110px;
       line-height: 10px;
+      width: 110px;
     }
     &__img{
       border-radius: 8px;
       height: 332px;
       width: 290px;
-      object-fit: cover;
       margin-top: 10px;
+      object-fit: cover;
     }
     &__city{
       font-family: 'Inter';
@@ -38,7 +38,7 @@
       color: var(--black)
     }
     &__country{
-      font-family: Inter;
+      font-family: 'Inter';
       font-size: 15px;
       font-weight: 500;
       color: var(--gray);
@@ -57,7 +57,7 @@
     }
 
     &__pictures {
-      justify-content: space-between; // desktop 
+      justify-content: space-between; 
       &__img{
         margin-top: 0;
       }

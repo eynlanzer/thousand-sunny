@@ -14,10 +14,10 @@
 
     &__text{
       font-family: 'Mulish';
-      font-weight: 400;
       font-size: 24px;
-      max-width: 450px;
+      font-weight: 400;
       margin-bottom: 40px;
+      max-width: 450px;
     }
 
     &__reviewer{
@@ -50,20 +50,20 @@
     }
   }
   &__photo{
+    border-radius: 14px;
     height: 430px;
     width: 330px; 
-    border-radius: 14px;
     object-fit: cover;
   }
   figcaption{
     @include overlay-config;
-    border-top-left-radius: 8px;
-    right: 0;
-    width: 132px;
-    height: 60px;
-    display: flex;
     align-items: center;
+    border-top-left-radius: 8px;
+    display: flex;
     justify-content: space-evenly;
+    height: 60px;
+    width: 132px;
+    right: 0;
   }
   @media (min-width: 70em) {
     &__review{
