@@ -1,0 +1,63 @@
+// .loginForm{
+//   height: 100vh;
+//   position: fixed;
+//   background-color: #fff;
+//   right: 0;
+//   width: 0;
+//   position: fixed;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+//   z-index: 10;
+//   &--open{
+//     height: 100vh;
+//     width: 100vw;
+//     right: 0;
+//     transition: width 1s ease-in-out;
+//   }
+// }
+  .loginForm{
+  align-items: center;
+  list-style: none;
+  height: 100vh;
+  position: fixed;
+  right: -100vw;
+  width: 0;
+  &--open{
+    // align-items: flex-start;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    transition: width 1s ease-in-out;
+    padding: 12%;
+    box-sizing: border-box;
+  }
+  &--close{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  input{
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 70em) {
+  .loginForm{
+    &--open{
+      width: 400px;
+      padding: 5%;
+    }
+  }
+}
