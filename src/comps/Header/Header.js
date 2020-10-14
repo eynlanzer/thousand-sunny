@@ -47,9 +47,11 @@ const Header = () => {
             <input className="loginForm__input" type="text" placeHolder="E-mail:"/>
             <input className="loginForm__input" type="password" placeHolder="Password:"/>
             <div className="loginForm__actions">
-            <a href='#'>
-              <p className="loginForm__actions__link">Quero uma conta ></p>
-            </a>
+              <a href='#'>
+                <p className="loginForm__actions__link">Quero uma conta
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </p>
+              </a>
               <button className="loginForm__actions__btn">
                 Entrar
                 <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">

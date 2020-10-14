@@ -15,10 +15,15 @@
   z-index: 2;
   box-shadow: 0 0 0 1px #f6f6f6;
   transition: right 1s ease-in-out;
+  // opacity: 0;
+  // visibility: hidden;
   &--open{
     @extend .loginForm;
     width: 100vw;
     right: 0;
+    // opacity: 1;
+    // visibility: visible;
+    // transition: opacity .5s ease-in-out .8s;
   }
   &--close{
     position: absolute;
@@ -38,6 +43,7 @@
   &__actions{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 40px;
     &__link{
       font-family: 'Montserrat';
@@ -47,6 +53,8 @@
       color: #B4D51E;
       text-decoration: underline;
       text-decoration-color: #B4D51E;
+      display: flex;
+      align-items: center;
     }
     &__btn{
       background: #B4D51E;
@@ -63,6 +71,8 @@
       display: flex;
       align-items: center;
       justify-content: space-evenly;
+      outline: 0;
+      cursor: pointer;
     }
   }
 
