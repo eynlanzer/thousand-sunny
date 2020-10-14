@@ -21,7 +21,8 @@ const Header = () => {
         </svg>
       </div>
 
-      <ul className={isOpen ? "header__menu--open": "header__menu"}>
+
+      <ul className={isOpen ? "header__menu--open" : "header__menu"}>
         <button className="header__menu--close" onClick={toggler}>X</button>
         <li className="header__menu__item" id="home"><a href="#">Home</a></li>
         <li className="header__menu__item"><a href="#">Destinations</a></li>
@@ -30,7 +31,6 @@ const Header = () => {
         <button className="header__btn--login">Login</button>
         <button className="header__btn--register">Register</button>
       </ul>
-
     </div>
   )
 }
