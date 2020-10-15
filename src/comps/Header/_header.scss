@@ -43,12 +43,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 0;
-    padding: 35%;
     top: 0;
     transition: right 1s ease-in-out;
     z-index: 2;
     &--open{
       @extend .header__menu;
+      padding: 35%;
       width: 100vw;
       right: 0;
     }
