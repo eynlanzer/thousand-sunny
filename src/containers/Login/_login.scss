@@ -3,7 +3,7 @@
   height: 100vh;
   position: fixed;
   right: -100vw;
-  width: 0;
+  width: 100vw;
   padding: 9%;
   box-sizing: border-box;
   position: fixed;
@@ -15,11 +15,11 @@
   z-index: 2;
   box-shadow: 0 0 0 1px #f6f6f6;
   transition: right 1s ease-in-out;
+
   // opacity: 0;
   // visibility: hidden;
   &--open{
     @extend .loginForm;
-    width: 100vw;
     right: 0;
     // opacity: 1;
     // visibility: visible;
@@ -36,9 +36,45 @@
     width: 20px;
   }
 
-  // &__container{
+    // &__container{
   //   width: 80%;
   // }
+
+  &__title{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  &__greeting{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
+
+  &__input{
+    background: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    outline-color: #8B8B8B;
+  }
+  
+  input {
+    border: 1px solid #CBCBCB;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 64px;
+    padding: 0 23px;
+    margin-bottom: 8px;
+    width: -webkit-fill-available;
+  }
 
   &__actions{
     display: flex;
@@ -75,55 +111,14 @@
       cursor: pointer;
     }
   }
-
-  &__title{
-    font-family: 'Montserrat';
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
-    margin-bottom: 10px;
-    margin-top: 0;
-  }
-
-  &__greeting{
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    width: 80%;
-    margin-bottom: 40px;
-    color: #8B8B8B;
-  }
-
-  input {
-    border: 1px solid #CBCBCB;
-    box-sizing: border-box;
-    border-radius: 4px;
-    height: 64px;
-    padding: 0 23px;
-    margin-bottom: 8px;
-    width: -webkit-fill-available;
-  }
-
-  &__input{
-    background: #FFFFFF;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    color: #8B8B8B;
-  }
 }
 
 @media (min-width: 70em) {
   .loginForm{
+    width: 400px;
+    padding: 2%;
     &__title{
       font-size: 36px;
-    }
-
-    &--open{
-      width: 400px;
-      padding: 2%;
     }
   }
 }
