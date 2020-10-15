@@ -12,15 +12,11 @@
   top: 0;
   transition: width 1s ease-in-out;
   z-index: 3;
-
-  // opacity: 0;
-  // visibility: hidden;
+  
   &--open{
     @extend .loginForm;
     width: 100vw;
-    // opacity: 1;
-    // visibility: visible;
-    // transition: opacity .5s ease-in-out .8s;
+    
   }
   &--close{
     cursor: pointer;
@@ -32,11 +28,18 @@
     position: absolute;
     outline: 0;
   }
-
+  
   &__container{
-    width: 80%;
+    opacity: 0;
+    visibility: hidden;
+    &--visible{
+      opacity: 1;
+      visibility: visible;
+      transition: opacity .5s ease-in-out .8s;
+      width: 80%;
+    }
   }
-
+  
   &__title{
     font-family: 'Montserrat';
     font-size: 24px;
@@ -45,7 +48,6 @@
     margin-bottom: 10px;
     margin-top: 0;
   }
-
   &__greeting{
     font-family: 'Montserrat';
     font-size: 16px;
@@ -53,7 +55,7 @@
     line-height: 22px;
     margin-bottom: 40px;
   }
-
+  
   &__input{
     background: #FFFFFF;
     font-family: 'Montserrat';
@@ -62,15 +64,18 @@
     line-height: 20px;
     outline-color: #8B8B8B;
   }
-  
   input {
     border: 1px solid #CBCBCB;
     box-sizing: border-box;
     border-radius: 4px;
     height: 64px;
-    width: -webkit-fill-available;
+    width: 100%;
+    // width: -webkit-fill-available;
     margin-bottom: 8px;
     padding: 0 23px;
+  }
+  ::placeholder {
+    color: #CBCBCB;
   }
 
   &__actions{
@@ -112,11 +117,14 @@
 
 @media (min-width: 70em) {
   .loginForm{
+    &--open{
+      width: 400px;
+    }
     &__title{
       font-size: 36px;
     }
-    &--open{
-      width: 400px;
+    &__greeting{
+      font-size: 15px;
     }
   }
 }
