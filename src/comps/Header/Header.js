@@ -44,8 +44,8 @@ const Header = () => {
           <form className="loginForm__container">
             <h1 className="loginForm__title">Login</h1>
             <p className="loginForm__greeting">Bom dia! Ficamos felizes em tê-lo conosco.</p>
-            <input className="loginForm__input" type="text" placeHolder="E-mail:"/>
-            <input className="loginForm__input" type="password" placeHolder="Password:"/>
+            <input className="loginForm__input" type="text" placeHolder="E-mail"/>
+            <input className="loginForm__input" type="password" placeHolder="Senha"/>
             <div className="loginForm__actions">
               <a href='#'>
                 <p className="loginForm__actions__link">Quero uma conta
