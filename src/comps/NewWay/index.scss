@@ -1,9 +1,11 @@
-.guides{
-  @include section-flex-config;
+@import '../../styles/index'; 
+@import '../../styles/variables'; 
+
+.newway{
   @include container-config;
-  flex-direction: column-reverse;
-  margin-bottom: 248px;
-  margin-top: 167px;
+  @include section-flex-config;
+  flex-direction: column-reverse;  
+  margin-top: 286px;
   &__img{
     margin-top: 20px;
     max-height: 100%;
@@ -24,11 +26,10 @@
   }
   @media (min-width: 70em) {
     align-items: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     &__img{
       margin-top: 0;
     }
   }
-
 }

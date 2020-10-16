@@ -1,3 +1,6 @@
+@import '../../styles/index'; 
+@import '../../styles/variables'; 
+
 .testimonials{
   @include container-config;
   &__review{

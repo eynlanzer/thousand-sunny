@@ -1,4 +1,5 @@
 import React from 'react';
+import "./index.scss"
 import trend1 from '../../assets/trend1.png';
 import trend2 from '../../assets/trend2.png';
 import trend3 from '../../assets/trend3.png';

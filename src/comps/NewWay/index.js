@@ -1,4 +1,5 @@
 import React from 'react'
+import "./index.scss"
 import newwayimg from '../../assets/thousand-02.png';
 
 const NewWay = () => {

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./index.scss"
 import holiday1 from '../../assets/holiday1.png';
 import holiday2 from '../../assets/holiday2.png';
 import holiday3 from '../../assets/holiday3.png';

@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import "./index.scss"
+import "../Logo/index.scss"
+import "../../containers/Login/index.scss"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

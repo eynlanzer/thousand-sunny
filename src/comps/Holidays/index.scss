@@ -1,3 +1,6 @@
+@import '../../styles/index'; 
+@import '../../styles/variables'; 
+
 .holidays{
   @include container-config;
   &__top{
