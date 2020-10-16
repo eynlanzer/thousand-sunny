@@ -1,8 +1,12 @@
-.newway{
-  @include container-config;
+@import '../../styles/index'; 
+@import '../../styles/variables'; 
+
+.guides{
   @include section-flex-config;
-  flex-direction: column-reverse;  
-  margin-top: 286px;
+  @include container-config;
+  flex-direction: column-reverse;
+  margin-bottom: 248px;
+  margin-top: 167px;
   &__img{
     margin-top: 20px;
     max-height: 100%;
@@ -23,10 +27,11 @@
   }
   @media (min-width: 70em) {
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     &__img{
       margin-top: 0;
     }
   }
+
 }

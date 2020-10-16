@@ -1,4 +1,5 @@
 import React from 'react'
+import "./index.scss"
 import guidesimg from '../../assets/thousand-03.png';
 
 const Guides = () => {

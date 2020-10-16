@@ -1,12 +1,26 @@
-@import 'config';
-@import 'mixins'; 
-@import 'logo'; 
-@import '../comps/Header/header';
-@import '../comps/Finder/finder'; 
-@import '../comps/NewWay/newway'; 
-@import '../comps/Guides/guides'; 
-@import '../comps/Testimonials/testimonials';
-@import '../comps/Trending/trending';
-@import '../comps/Holidays/holidays';
-@import '../comps/Footer/footer'; 
-@import '../containers/Login/login'; 
+// @import 'config';
+// @import './mixins'; 
+// @import './variables.scss';
+// @import 'logo'; 
+// @import '../comps/Header/header';
+// @import '../comps/Finder/finder'; 
+// @import '../comps/NewWay/newway'; 
+// @import '../comps/Guides/guides'; 
+// @import '../comps/Testimonials/testimonials';
+// @import '../comps/Trending/trending';
+// @import '../comps/Holidays/holidays';
+// @import '../comps/Footer/footer'; 
+// @import '../containers/Login/login'; 
+
+:root{
+  --orange: #FB8F1D;
+  --green: #1ABE84;
+  --black: #202336;
+  --gray: #7D7987;
+  --light-gray: #B8BECD;
+}
+
+body{
+  font-family: 'Inter';
+  margin: 0;
+}
