@@ -45,7 +45,7 @@
   }
   
   &__title{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $login-primary;
     font-size: 24px;
     font-weight: 600;
     line-height: 1.35em;
@@ -54,7 +54,7 @@
     margin-top: 0;
   }
   &__greeting{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $login-primary;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.35em;
@@ -65,26 +65,26 @@
   
   &__input{
     background: #FFFFFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $login-primary;
     font-size: 14px;
     outline: none;
   }
   input {
     border-radius: 100px;
-    border: 1px solid #CBCBCB;
+    border: 1px solid $color-login-gray;
     box-sizing: border-box;
     height: 58px;
     width: 100%;
     margin-bottom: 20px;
     min-height: 58px;
     padding: 0 20px;
-    color: #D5D5D5;
+    color: $color-login-black;
   }
   :focus {
-    border-color: #B4D51E;
+    border-color: $color-login-green;
   }
   ::placeholder {
-    color: #CBCBCB;
+    color: $color-login-gray;
   }
 
   &__actions{
@@ -95,26 +95,26 @@
     margin-top: 10px;
     &__link{
       align-items: center;
-      color: #B4D51E;
+      color: $color-login-green;
       display: flex;
-      font-family: 'Montserrat', sans-serif;
+      font-family: $login-primary;
       font-size: 14px;
       font-weight: 500;
       text-decoration: underline;
-      text-decoration-color: #B4D51E;
+      text-decoration-color: $color-login-green;
     }
     &__btn{
       width: 45%; 
       min-height: 50px; 
       font-size: 14px;
       align-items: center;
-      background: #B4D51E;
-      border: #B4D51E;
+      background: $color-login-green;
+      border: $color-login-green;
       border-radius: 100px;
       color: #fff;
       cursor: pointer;
       display: flex;
-      font-family: 'Montserrat', sans-serif;
+      font-family: $login-primary;
       font-weight: 500;
       justify-content: center;
       position: relative;
@@ -128,7 +128,7 @@
   }
 }
 
-@media (min-width: 70em) {
+@media (min-width: $screen-xl) {
   .loginForm{
     &--open{
       width: 400px;
