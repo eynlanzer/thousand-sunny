@@ -25,7 +25,7 @@
       @include section-btn-config;
     }
   }
-  @media (min-width: 70em) {
+  @media (min-width: $screen-xl) {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;

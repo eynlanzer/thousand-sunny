@@ -82,7 +82,7 @@
   }
 }
 
-@media (min-width: 70em) {
+@media (min-width: $screen-xl) {
   .finder {
     flex-direction: row;
     justify-content: space-between;

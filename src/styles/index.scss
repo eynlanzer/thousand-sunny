@@ -12,6 +12,11 @@
 // @import '../comps/Footer/footer'; 
 // @import '../containers/Login/login'; 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 :root{
   --orange: #FB8F1D;
   --green: #1ABE84;
@@ -23,4 +28,106 @@
 body{
   font-family: 'Inter';
   margin: 0;
+}
+
+// Mixins
+@mixin container-config{
+  margin: auto;
+  max-width: 1350px;
+  width: 85%;
+}
+
+// Header
+@mixin btn-config{
+  border: 1px solid var(--orange);
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  height: 44px;
+  width: 132px;
+  cursor: pointer;
+  outline:0;
+}
+
+// NewWay + Guide
+@mixin section-flex-config{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@mixin section-btn-config{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: 8px;
+  padding: 6px 37px;
+  height: 48px;
+  width: 164px;
+  margin-top: 39px;
+  cursor: pointer;
+  outline:0;
+}
+
+@mixin section-title-config{
+  --black: #000000;
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+@mixin section-text-config{
+  color: var(--gray);
+  font-family: 'Mulish';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 30px;   
+  max-width: 450px;
+}
+
+// Testimonials
+@mixin overlay-btn-config{
+  border-radius: 50%;
+  background-color: #fff;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  outline: 0;
+}
+
+// Testimonials, Holiday
+@mixin overlay-config{
+  background-color: #fff;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+// Trending, Holiday
+@mixin viewall-config{
+  font-family: 'Inter';
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--orange);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+@mixin wrap-pictures-config{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; // mobile
+}
+
+//Footer
+@mixin footer-text-config{
+  font-family: 'Mulish';
+  font-weight: 300;
+  color: #848484;
+  font-size: 18px;
 }

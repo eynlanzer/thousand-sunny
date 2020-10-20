@@ -2,7 +2,7 @@
 @import '../../styles/variables'; 
 
 #home a{
-  color: var(--black);
+  color: $color-black;
   font-weight: 500;
 }
 
@@ -15,7 +15,7 @@
   .hamburger {
     margin-top: 10px;
     rect{
-      fill: var(--green);
+      fill: $color-green;
     }
   }
 
@@ -78,7 +78,7 @@
   }
 }
 
-@media (min-width: 70em) {
+@media (min-width: $screen-xl) {
   .header {
     &__menu{
       display: flex;

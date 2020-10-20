@@ -68,7 +68,7 @@
     width: 132px;
     right: 0;
   }
-  @media (min-width: 70em) {
+  @media (min-width: $screen-xl) {
     &__review{
       align-items: center;
       justify-content: space-between;
